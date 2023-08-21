@@ -18,9 +18,10 @@ body {
 
 .content {
     background-color: #fff;
-    width: 100%;
-    height: 90vh;
-    margin-top: 5vh;
+    width: 1440px;
+    height: 1024px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
 }
 
@@ -52,7 +53,7 @@ body {
 .logo-txt {
     color: #fff;
     font-family: "Norse Bold", sans-serif;
-    font-size: 10vh;
+    font-size: 8rem;
 }
 
 .sidebar-credits {
