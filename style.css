@@ -101,6 +101,7 @@ body {
 
 #signup-form input:focus {
     border: solid 2px rgb(130, 130, 255);
+    box-shadow: 1px 1px 5px lightgrey;
 }
 
 .signup-form-row {
@@ -112,6 +113,18 @@ body {
     display: flex;
     flex-direction: column;
     padding-right: 50px;
+}
+
+#password.error,
+#confirm-password.error {
+    border: solid 1px red;
+}
+
+#password-match-txt {
+    margin-top: 2px;
+    font-size: 10px;
+    color: red;
+    display: none;
 }
 
 .signup-btn {
