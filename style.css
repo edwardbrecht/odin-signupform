@@ -125,3 +125,13 @@ body {
     font-size: 14px;
     color: white;
 }
+
+.log-in-txt {
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.log-in-txt a {
+    color: #596d48;
+    text-decoration: none;
+}
