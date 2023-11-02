@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+*, *:focus, *:hover {
+    outline:none;
+}
+
 body {
     background-color: #000;
     display: flex;
@@ -79,4 +83,45 @@ body {
 
 #signup-form {
     background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 2px 5px lightgrey;
+}
+
+#signup-form label {
+    font-size: 10px;
+}
+
+#signup-form input {
+    height: 25px;
+    margin-top: 5px;
+    border: solid 2px #e5e7eb;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+#signup-form input:focus {
+    border: solid 2px rgb(130, 130, 255);
+}
+
+.signup-form-row {
+    padding: 10px 0px;
+    display: flex;    
+}
+
+.row-element {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.signup-btn {
+    margin: 20px;
+    height: 45px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: #596D48;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
 }
